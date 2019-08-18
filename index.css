@@ -2,21 +2,39 @@
     font-family: 'Lexend Giga', sans-serif;
 }
 
-header {
-     
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 10px;
     background-color: black;
-    color: white;
-    text-align: center;
 }
 
-nav {
+.logo:visited, .logo:link {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.nav-menu-expand {
+    margin-top: 5px;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+.navigation-menu.expanded {
     display: flex;
     text-align: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
     background-color: rgb(139, 186, 224);
 }
 
@@ -54,6 +72,12 @@ main .headshot {
     max-width: 300px;
 }
 
+main .bio-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .project-1 {
     width: 100%;
     display: flex;
@@ -74,6 +98,12 @@ main .headshot {
     max-width: 500px;
 }
 
+.project-1 .project-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -88,4 +118,43 @@ footer {
         padding: 30px;
     }
 
+    main .bio-text {
+        width: 70%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .project-1 .project-text {
+        width: 70%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    main .headshot {
+        margin-left: 15%;
+    }
+
+    main .bio-text {
+        width: 50%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+
+    .project-1 .project-text {
+        width: 50%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
