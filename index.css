@@ -1,4 +1,9 @@
+* {
+    font-family: 'Lexend Giga', sans-serif;
+}
+
 header {
+     
     width: 100%;
     padding-top: 10px;
     font-size: 30px;
@@ -12,11 +17,20 @@ nav {
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(139, 186, 224);
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav li {
     list-style-type: none;
+    display: inline;
+    padding: 15px;
 }
 
 main {
@@ -24,9 +38,9 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: gainsboro;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    background-color: rgb(48, 148, 230);
+    padding-bottom: 40px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -35,10 +49,9 @@ main h2 {
 }
 
 main .headshot {
-    width: 50px;
-    height: 100px;
-    border: 1px solid black;
-    text-align: center;
+
+    width: 80%;
+    max-width: 300px;
 }
 
 .project-1 {
@@ -46,10 +59,10 @@ main .headshot {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: left;
+    background-color: rgb(139, 186, 224);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .project-1 h2 {
@@ -57,10 +70,8 @@ main .headshot {
 }
 
 .project-1 .project-screenshot {
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
-    text-align: center
+    width: 80%;
+    max-width: 500px;
 }
 
 footer {
