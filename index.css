@@ -104,6 +104,32 @@ main .bio-text {
     margin-right: 5%;
 }
 
+.project-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(48, 148, 230);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.project-2 h2 {
+    text-align: center;
+}
+
+.project-2 .project-screenshot {
+    width: 80%;
+    max-width: 500px;
+}
+
+.project-2 .project-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 footer {
     background-color: black;
     color: white;
