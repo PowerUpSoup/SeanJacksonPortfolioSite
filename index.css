@@ -2,6 +2,10 @@
     font-family: 'Lexend Giga', sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -35,7 +39,7 @@
     text-align: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: rgb(139, 186, 224);
+    background-color: rgb(220,240,250);
 }
 
 nav ul {
@@ -56,7 +60,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: rgb(48, 148, 230);
+    background-color: rgb(185,226,245);
     padding-bottom: 40px;
     padding-top: 40px;
     text-align: center;
@@ -83,7 +87,7 @@ main .bio-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(139, 186, 224);
+    background-color: rgb(220,240,250);
     padding-bottom: 40px;
     padding-top: 40px;
     text-align: center;
@@ -109,7 +113,7 @@ main .bio-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(48, 148, 230);
+    background-color: rgb(185,226,245);
     padding-bottom: 40px;
     padding-top: 40px;
     text-align: center;
@@ -125,6 +129,58 @@ main .bio-text {
 }
 
 .project-2 .project-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.project-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(220,240,250);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.project-3 h2 {
+    text-align: center;
+}
+
+.project-3 .project-screenshot {
+    width: 80%;
+    max-width: 500px;
+}
+
+.project-3 .project-text {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.project-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(185,226,245);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.project-4 h2 {
+    text-align: center;
+}
+
+.project-4 .project-screenshot {
+    width: 80%;
+    max-width: 500px;
+}
+
+.project-4 .project-text {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
