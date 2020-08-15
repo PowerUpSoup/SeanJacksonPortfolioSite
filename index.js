@@ -1,8 +1,8 @@
 function myFunction() {
-    var x = document.getElementById("navigation-menu");
-    if (x.className === "navigation-menu") {
+    var x = document.getElementById("page-nav");
+    if (x.className === "page-nav") {
       x.className += " expanded";
     } else {
-      x.className = "navigation-menu";
+      x.className = "page-nav";
     }
   }
