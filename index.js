@@ -1,11 +1,3 @@
-window.addEventListener('load', () => {
-  const hamburger = document.querySelector('.nav .nav-bar .nav-list .hamburger');
-  const mobile_menu = document.querySelector('.nav .nav-bar .nav-list ul');
-  const nav_item = document.querySelectorAll('.nav .nav-bar .nav-list ul li a');
-  const navigation = document.querySelector('.nav.container');
-  console.log(hamburger)
-});
-
 function hamburgerExpand() {
   const hamburger = document.querySelector('.nav .nav-bar .nav-list .hamburger');
   const mobile_menu = document.querySelector('.nav .nav-bar .nav-list ul');
